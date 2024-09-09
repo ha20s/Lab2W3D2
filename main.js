@@ -33,7 +33,7 @@ for(let i = 0; i <= numbers.length; i++){
 }
 
 
-part 5 
+// part 5 
 console.log(numbers.includes(5))
 
 //part 6 
@@ -90,17 +90,12 @@ const namesA = names.filter(function(currentValue, index, array) {
 
 console.log(namesA)
 
+
 // part2 b
 
+let newString = names.join()
 
-
-// let newArray = []
-
-// for(let i = 0; i <= names.length; i++){
-   
-//     newArray.push(names[i].split(""))
-// }
-// console.log(newArray)
+console.log(newString.split(""))
 
 // كمليها 
 
