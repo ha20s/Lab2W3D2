@@ -97,13 +97,42 @@ let newString = names.join()
 
 console.log(newString.split(""))
 
-// كمليها 
+// part 3 a
 
-// let fruits = ['apple', 'banana', 'cherry', 'date','elephant', 'bird', 'lion'];
+let fruits = ['apple', 'banana', 'cherry', 'date','elephant', 'bird', 'lion'];
+let StringFruits = fruits.toString()
 
-// for(let i = 0; i <= names.length; i++){
-   
-//     newArray.push(names[i].split(""))
+// const startWithB = fruits.filter(function(currentValue, index, array) {
+//     return currentValue.includes("b")
+// })
+
+// for(let i = 0; i <= fruits.length; i++){
+//     if()
 // }
 
+let words = ['hello', 'world', 'javascript', 'array', 'function'];
 
+
+function Sum(num1, num2) { 
+    return num1 + num2; 
+  } 
+
+  function multiplcation(num1, num2) { 
+    return num1 * num2; 
+  } 
+
+  function Sub(num1, num2) { 
+    return num1 - num2; 
+  }
+
+  function mod(num1, num2) { 
+    return num1 % num2; 
+  }
+
+  function div(num1, num2) { 
+    return num1 / num2; 
+  }
+
+  console.log(Sum(2,4))
+
+  console.log(mod(9,3))
